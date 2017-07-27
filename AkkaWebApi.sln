@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaWebApi", "AkkaWebApi\AkkaWebApi.csproj", "{9220B26C-3693-48F5-8FD4-DE37BE08D210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaWebApi.Tests", "AkkaWebApi.Tests\AkkaWebApi.Tests.csproj", "{5964EB25-CF1F-43B2-AE3F-F614063A680D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9220B26C-3693-48F5-8FD4-DE37BE08D210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9220B26C-3693-48F5-8FD4-DE37BE08D210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9220B26C-3693-48F5-8FD4-DE37BE08D210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9220B26C-3693-48F5-8FD4-DE37BE08D210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5964EB25-CF1F-43B2-AE3F-F614063A680D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5964EB25-CF1F-43B2-AE3F-F614063A680D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5964EB25-CF1F-43B2-AE3F-F614063A680D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5964EB25-CF1F-43B2-AE3F-F614063A680D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
