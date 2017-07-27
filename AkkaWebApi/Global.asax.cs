@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
+using AkkaWebApi.App_Start;
 
 namespace AkkaWebApi
 {
@@ -11,7 +12,13 @@ namespace AkkaWebApi
     {
         protected void Application_Start()
         {
+            AppActorSystem.Create();
             GlobalConfiguration.Configure(WebApiConfig.Register);
+        }
+
+        protected void Application_End()
+        {
+            AppActorSystem.Terminate();
         }
     }
 }
